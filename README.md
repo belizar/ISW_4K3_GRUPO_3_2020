@@ -1,6 +1,6 @@
 ## Motivación
 
-Siendo alumnos de la materia de Ingenieria de Software de la carrera de Ingenieria en Sistemas de Información de la UTN-FRC, necesitamos mantener el orden y centralizar los recursos propuestos por la catedra y que nosotros como estudiantes vamos generando a medida que avanza el cursado de la materia.
+Siendo alumnos de la materia de Ingeniería de Software de la carrera de Ingeniería en Sistemas de Información de la UTN-FRC, necesitamos mantener el orden y centralizar los recursos propuestos por la cátedra y que nosotros como estudiantes vamos generando a medida que avanza el cursado de la materia.
 
 ## Integrantes
 
@@ -15,58 +15,57 @@ Siendo alumnos de la materia de Ingenieria de Software de la carrera de Ingenier
 ```
 ISW_4K3_GRUPO_3_2020
 ├── Catedra
-│   ├── ISW_MA.pdf
-│   ├── Material_Bibliogra�\201fico_Listado.pdf
-│   ├── Protocolos\ para\ rendir\ en\ forma\ remota
-│   │   ├── Protocolo_Finales.pdf
-│   │   └── Protocolo_Parciales.pdf
-│   └── Templates\ Parciales
-│       ├── Template_Parcial_1.docx
-│       └── Template_Parcial_2.dotx
-├── Clases\ Grabadas
-│   ├── Practicas_Grabadas.md
-│   └── Teoricas_Grabadas.md
+│   ├── ISW_2020_ModalidadAcademica.pdf
+│   ├── ISW_2020_MaterialBibliografico.pdf
+│   ├── ProtocolosParaRendirRemoto
+│   │   ├── ProtocoloFinales.pdf
+│   │   └── ProtocoloParciales.pdf
+│   └── TemplatesParciales
+│       ├── TemplateParcial_01.docx
+│       └── TemplateParcial_02.dotx
+├── Clases
+│   ├── PracticasGrabadas.md
+│   └── TeoricasGrabadas.md
 ├── README.md
 ├── Teorico
 │   ├── Filminas
-│   │   ├── 00_Intro\ Cursada.pdf
-│   │   ├── 01_Ingenieri�\201a\ de\ software.pdf
-│   │   ├── 02_Intro\ Proyectos.pdf
-│   │   ├── 03_Intro\ Agile.pdf
-│   │   ├── 04_Requerimientos\ agiles\ -\ US.pdf
-│   │   ├── 05_Estimaciones.pdf
-│   │   ├── 06_Gestio�\201n\ de\ productos\ de\ software.pdf
-│   │   └── 07_SCM.pdf
-│   └── Material\ Bibliogra�\201fico
-│       ├── AGILE_TESTING_-_A_PRACTICAL_GUIDE_FOR_TESTERS_AND_AGILE_TEAMS.pdf
-│       ├── Bibliografi�\201a\ -\ Cap\ 6\ libro\ Cohn\ Estimacio�\201n.pdf
-│       ├── Bibliografi�\201a\ -\ Little_Book_of_Configuration_Management.pdf
-│       ├── Essential-Kanban-Condensed-Spanish.pdf
-│       ├── Implementing\ Lean\ Software\ Development\ From\ Concept\ to\ Cash.pdf
-│       ├── KanbanVsScrum_Castellano_FINAL-printed.pdf
-│       ├── Lean\ Software\ Development\ -\ An\ Agile\ Toolkit.pdf
-│       ├── Lean-from-the-trenches.pdf
-│       ├── Lean_UX.pdf
-│       ├── Paper\ \ -\ SCM\ -\ Bersoff.pdf
-│       ├── Rapid\ Development\ -\ Steve\ Mcconnell.pdf
-│       ├── Software\ Engineering\ Body\ of\ Knowledge.pdf
-│       ├── The\ Art\ of\ Software\ Testing\ 3\ edition.pdf
-│       ├── The\ Mythical\ Man-Month_\ Essays\ on\ Software\ Engineeri.pdf
-│       ├── agile-estimating-and-planning-algunos\ capitulos.pdf
-│       ├── ingenieria\ del\ software\ -\ roger\ pressman\ 7ma\ edicio�\201n.pdf
-│       ├── scrum-y-xp-desde-las-trincheras.pdf
-│       ├── user\ story\ primer.pdf
-│       └── user-stories-applied-mike-cohn-preview.pdf
+│   │   ├── 00_2020_Intro_cursada.pdf
+│   │   ├── 01_2020_Ingenieria_de_software.pdf
+│   │   ├── 02_2020_Intro_proyectos.pdf
+│   │   ├── 03_2020_Intro_agile.pdf
+│   │   ├── 04_2020_Requerimientos_agiles_US.pdf
+│   │   ├── 05_2020_Estimaciones.pdf
+│   │   ├── 06_2020_Gestioon_de_productos_de_software.pdf
+│   │   └── 07_2020_SCM.pdf
+│   └── MaterialBibliografico
+│       ├── A_user_story_primer__LeffingwellBehrens.pdf
+│       ├── Agile_estimating_and_planning__Cohn.pdf
+│       ├── Agile_testing_A_practical_guide_for_testers_and_agile_teams__Cohn.pdf
+│       ├── Elements_of_SCM__Bersoff.pdf
+│       ├── Essential_Kanban_Condensed__AndersonCarmichael.pdf
+│       ├── Implementing_Lean_software_development_from_concept_to_cash.pdf
+│       ├── Ingenieria_del_software__Pressman.pdf
+│       ├── Kanban_vs_Scrum__KnibergSkarin.pdf
+│       ├── Lean_from_the_trenches__Kniberg.pdf
+│       ├── Lean_software_development_An_agile_toolkit__Poppendieck.pdf
+│       ├── Lean_UX__Gothelf.pdf
+│       ├── Little_book_of_configuration_management.pdf
+│       ├── Rapid_development__McConnell.pdf
+│       ├── Scrum_y_XP_desde_las_trincheras__Kniberg.pdf
+│       ├── SWEBOK.pdf
+│       ├── The_art_of_software_testing__Myers.pdf
+│       ├── The_mythical_man_month__Brooks.pdf
+│       └──User-stories-applied__Cohn.pdf
 └── Trabajos
     ├── Guias
-    │   ├── GTC_Lineamientos.pdf
-    │   ├── GTP_Enunciados.pdf
-    │   └── GTP_Resueltos.pdf
-    ├── Trabajos\ Conceptuales
+    │   ├── GTC_2020_Lineamientos.pdf
+    │   ├── GTP_2020_Enunciados.pdf
+    │   └── GTP_2020_Resueltos.pdf
+    ├── TrabajosConceptuales
     │   ├── TC01
     │   ├── TC02
     │   └── TC03
-    └── Trabajos\ Practicos
+    └── TrabajosPracticos
         ├── TP01
         │   ├── 4K3_G3_TP01_Borrador.docx
         │   ├── 4K3_G3_TP01_Corregido.pdf
