@@ -41,38 +41,46 @@ ISW_4K3_GRUPO_3_2020
 
 
 
-## Ítems de Configuración
+# Ítems de Configuración
+
+Para la ubicación física, se parte del directorio raíz del repositorio (cuyo nombre es [ISW\_4K3\_GRUPO\_3\_2020](https://github.com/belizar/ISW_4K3_GRUPO_3_2020))
 
 | **Nombre del ítem de configuración** | **Regla de nombrado** | **Ubicación física** | **Tipo de ítem** |
 | --- | --- | --- | --- |
-| Modalidad Académica | ISW\_MA.pdf | /Cátedra | Cátedra |
-| Template parcial | Template\_Parcial\_\<NRO\_PARCIAL\>.docx | /Cátedra/Templates parciales | Cátedra |
-| Clases teóricas grabadas | ClasesTeoricas.md | /Clases | Clases |
-| Clases prácticas grabadas | ClasesPracticas.md | /Clases | Clases |
-| Material bibliográfico | \<DESCRIPCION\_MATERIAL\> - \<AUTOR\_MATERIAL\>.pdf | /Teórico/Material Bibliográfico | Cátedra |
-| Filmina | \<NRO\_FILMINA\>\_\<NOMBRE\_FILMINA\>.pdf | /Teórico/Filminas | Cátedra |
-| Guía de trabajos prácticos | GTP\_\<DESCRIPCION\_GTP\>.pdf | /Trabajos/Guias | Cátedra |
-| Guía de trabajos conceptuales | GTC\_\<DESCRIPCION\_GTC\>.pdf | /Trabajos/Guias | Trabajos |
-| Trabajo práctico borrador | 4K3\_G3\_TP\<NRO\_TP\>\_Borrador.\<EXT\> | /Trabajos/Trabajos Prácticos/TP\<NRO\_TP\> | Trabajos |
-| Trabajo práctico entregado | 4K3\_G3\_TP\<NRO\_TP\>\_Entrega.pdf | /Trabajos/Trabajos Prácticos/TP\<NRO\_TP\> | Trabajos |
-| Trabajo práctico corregido | 4K3\_G3\_TP\<NRO\_TP\>\_Corrección.pdf | /Trabajos/Trabajos Prácticos/TP\<NRO\_TP\> | Trabajos |
-| Trabajo conceptual entregado | 4K3\_G3\_TP\<NRO\_TC\>\_Entrega.pdf | /Trabajos/Trabajos Prácticos/TP\<NRO\_TC\> | Trabajos |
+| Modalidad Académica | ISW\_\<Año\>\_ModalidadAcademica.\<EXT\> | /Catedra | Cátedra |
+| Listado de material bibliográfico | ISW\_\<Año\>\_MaterialBibliográfico.\<EXT\> | /Catedra | Cátedra |
+| Template parcial | TemplateParcial\_\<NumParcial\>\_\<Año\>.\<EXT\> | /Catedra/TemplatesParciales | Cátedra |
+| Protocolos para rendir | Protocolo\<TIPO\_EXAMEN\>\_\<Año\>.\<EXT\> | /Catedra/ProtocolosParaRendir | Cátedra |
+| Clases teóricas grabadas | TeoricasGrabadas\_\<Año\>.\<EXT\> | /Clases | Clases |
+| Clases prácticas grabadas | PracticasGrabadas\_\<Año\>.\<EXT\> | /Clases | Clases |
+| Material bibliográfico | \<DESCRIPCION\>\_\_\<AUTOR\>.\<EXT\> | /Teórico/MaterialBibliografico | Teórico |
+| Filmina | \<NumFilmina\>\_\<Año\>\_\<DESCRIPCION\>.\<EXT\> | /Teórico/Filminas | Teórico |
+| Guía de trabajos prácticos | GTP\_\<Año\>\_\<DESCRIPCION\>.\<EXT\> | /Trabajos/Guias | Trabajos |
+| Guía de trabajos conceptuales | GTC\_\<Año\>\_\<DESCRIPCION\>.\<EXT\> | /Trabajos/Guias | Trabajos |
+| Trabajo práctico | 4K\<N\>\_G\<NumGrupo\>\_TP\<NumTP\>\_\<DESCRIPCION\>.\<EXT\> | /Trabajos/TrabajosPracticos/TP\<NumTP\> | Trabajos |
+| Trabajo conceptual | 4K\<N\>\_G\<NumGrupo\>\_TC\<NumTC\>\_\<DESCRIPCION\>.\<EXT\> | /Trabajos/TrabajosConceptuales/TC\<NumTC\> | Trabajos |
 
-## Glosario
+#
+
+# Glosario
 
 | **Sigla** | **Significado** |
 | --- | --- |
-| \<NRO\_PARCIAL\> | Número del parcial, denotados por 1 dígito |
-| \<DESCRIPCION\_MATERIAL\> | Título o descripción que identifica el material bibliográfico (ya sea un paper, un libro, etcétera) comenzando la primera letra con mayúscula |
-| \<AUTOR\_MATERIAL\> | Nombre del autor del material bibliográfico |
-| \<NRO\_FILMINA\> | Número de orden correlativo denotado por 2 dígitos, por ejemplo 01 |
-| \<NOMBRE\_FILMINA\> | Nombre descriptivo del contenido de la filmina, comenzando la primera letra con mayúscula |
-| \<EXT\> | Extensión del tipo de archivo, por ejemplo .doc |
-| \<NRO\_TP\> | Número del trabajo práctico denotado por 2 dígitos, por ejemplo 01 |
-| \<NRO\_TC\> | Número del trabajo conceptual denotado por 2 dígitos, por ejemplo 01 |
-| \<DESCRIPCION\_GTP\> | Nombre descriptivo del contenido referido a guías de trabajos prácticos, comenzando la primera letra con mayúscula |
-| \<DESCRIPCION\_GTC\> | Nombre descriptivo del contenido referido a guías de trabajos conceptuales, comenzando la primera letra con mayúscula |
+| \<N\> | Número ordinal de un dígito comenzando en 1 que identifica el curso |
+| \<NumGrupo\> | Número ordinal de un dígito comenzando en 1 que identifica al grupo |
+| \<NumParcial\> | Número ordinal de dos dígitos que identifica el número de parcial. Comienza en 00 |
+| \<NumFilmina\> | Número ordinal de dos dígitos que identifica el número de filmina. Comienza en 00 |
+| \<NumTP\> | Número ordinal de dos dígitos que identifica el número de Trabajo Práctico. Comienza en 00 |
+| \<NumTC\> | Número ordinal de dos dígitos que identifica el número de Trabajo Conceptual. Comienza en 00 |
+| \<AUTOR\> | Apellido de el/los autor/es del contenido del ítem de configuración. Es opcional |
+| \<Año\> | Número de cuatro dígitos que identifica el año en que se cursó la materia |
+| \<EXT\> | Nombre de la extensión de un archivo identificado como ítem de configuración |
+| \<TIPO\_EXAMEN\> | Nombre del tipo de examen, por ejemplo &quot;Parcial&quot; o &quot;Final&quot; |
+| \<DESCRIPCION\> | Nombre descriptivo del contenido del ítem de configuración, comenzando la primera letra con mayúscula y palabras separadas por guión bajo |
 
-## Línea Base
+# Línea Base
 
 Como equipo hemos definido oportuno crear línea base la semana posterior a las instancias de evaluación de la materia Ingeniería de Software.
+
+Utilizaremos la herramienta de versionado [Github](https://github.com/), la cual nos permite realizar esto mediante el uso de etiquetas o &quot;tags&quot;. Al crear una línea base seguirá una regla de nombrado como la siguiente: \<vX.X\>, por ejemplo &quot;v1.0&quot;
+
