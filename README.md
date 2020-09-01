@@ -15,67 +15,23 @@ Siendo alumnos de la materia de Ingeniería de Software de la carrera de Ingenie
 ```
 ISW_4K3_GRUPO_3_2020
 ├── Catedra
-│   ├── ISW_2020_ModalidadAcademica.pdf
-│   ├── ISW_2020_MaterialBibliografico.pdf
 │   ├── ProtocolosParaRendirRemoto
-│   │   ├── ProtocoloFinales.pdf
-│   │   └── ProtocoloParciales.pdf
 │   └── TemplatesParciales
-│       ├── TemplateParcial_01.docx
-│       └── TemplateParcial_02.dotx
 ├── Clases
-│   ├── PracticasGrabadas.md
-│   └── TeoricasGrabadas.md
 ├── README.md
 ├── Teorico
 │   ├── Filminas
-│   │   ├── 00_2020_Intro_cursada.pdf
-│   │   ├── 01_2020_Ingenieria_de_software.pdf
-│   │   ├── 02_2020_Intro_proyectos.pdf
-│   │   ├── 03_2020_Intro_agile.pdf
-│   │   ├── 04_2020_Requerimientos_agiles_US.pdf
-│   │   ├── 05_2020_Estimaciones.pdf
-│   │   ├── 06_2020_Gestion_de_productos_de_software.pdf
-│   │   └── 07_2020_SCM.pdf
 │   └── MaterialBibliografico
-│       ├── A_user_story_primer__LeffingwellBehrens.pdf
-│       ├── Agile_estimating_and_planning__Cohn.pdf
-│       ├── Agile_testing_A_practical_guide_for_testers_and_agile_teams__Cohn.pdf
-│       ├── Elements_of_SCM__Bersoff.pdf
-│       ├── Essential_Kanban_Condensed__AndersonCarmichael.pdf
-│       ├── Implementing_Lean_software_development_from_concept_to_cash.pdf
-│       ├── Ingenieria_del_software__Pressman.pdf
-│       ├── Kanban_vs_Scrum__KnibergSkarin.pdf
-│       ├── Lean_from_the_trenches__Kniberg.pdf
-│       ├── Lean_software_development_An_agile_toolkit__Poppendieck.pdf
-│       ├── Lean_UX__Gothelf.pdf
-│       ├── Little_book_of_configuration_management.pdf
-│       ├── Rapid_development__McConnell.pdf
-│       ├── Scrum_y_XP_desde_las_trincheras__Kniberg.pdf
-│       ├── SWEBOK.pdf
-│       ├── The_art_of_software_testing__Myers.pdf
-│       ├── The_mythical_man_month__Brooks.pdf
-│       └──User-stories-applied__Cohn.pdf
 └── Trabajos
     ├── Guias
-    │   ├── GTC_2020_Lineamientos.pdf
-    │   ├── GTP_2020_Enunciados.pdf
-    │   └── GTP_2020_Resueltos.pdf
     ├── TrabajosConceptuales
     │   ├── TC01
     │   ├── TC02
     │   └── TC03
     └── TrabajosPracticos
         ├── TP01
-        │   ├── 4K3_G3_TP01_Borrador.docx
-        │   ├── 4K3_G3_TP01_Corregido.pdf
-        │   └── 4K3_G3_TP01_Entregado.pdf
         ├── TP03
-        │   ├── 4K3_G3_TP03_Borrador.docx
-        │   └── 4K3_G3_TP03_Entregado.pdf
         └── TP04
-            ├── 4K3_G3_TP04_Borrador.docx
-            └── 4K3_G3_TP04_Entregado.pdf
 ```
 
 
