@@ -18,7 +18,6 @@ ISW_4K3_GRUPO_3_2020
 │   ├── ProtocolosParaRendirRemoto
 │   └── TemplatesParciales
 ├── Clases
-├── README.md
 ├── Teorico
 │   ├── Filminas
 │   └── MaterialBibliografico
@@ -36,46 +35,35 @@ ISW_4K3_GRUPO_3_2020
 
 
 
-
-
-
-
-
 # Ítems de Configuración
 
 Para la ubicación física, se parte del directorio raíz del repositorio (cuyo nombre es [ISW\_4K3\_GRUPO\_3\_2020](https://github.com/belizar/ISW_4K3_GRUPO_3_2020))
 
 | **Nombre del ítem de configuración** | **Regla de nombrado** | **Ubicación física** | **Tipo de ítem** |
 | --- | --- | --- | --- |
-| Modalidad Académica | ISW\_\<Año\>\_ModalidadAcademica.\<EXT\> | /Catedra | Cátedra |
-| Listado de material bibliográfico | ISW\_\<Año\>\_MaterialBibliográfico.\<EXT\> | /Catedra | Cátedra |
-| Template parcial | TemplateParcial\_\<NumParcial\>\_\<Año\>.\<EXT\> | /Catedra/TemplatesParciales | Cátedra |
-| Protocolos para rendir | Protocolo\<TIPO\_EXAMEN\>\_\<Año\>.\<EXT\> | /Catedra/ProtocolosParaRendir | Cátedra |
-| Clases teóricas grabadas | TeoricasGrabadas\_\<Año\>.\<EXT\> | /Clases | Clases |
-| Clases prácticas grabadas | PracticasGrabadas\_\<Año\>.\<EXT\> | /Clases | Clases |
-| Material bibliográfico | \<DESCRIPCION\>\_\_\<AUTOR\>.\<EXT\> | /Teórico/MaterialBibliografico | Teórico |
-| Filmina | \<NumFilmina\>\_\<Año\>\_\<DESCRIPCION\>.\<EXT\> | /Teórico/Filminas | Teórico |
-| Guía de trabajos prácticos | GTP\_\<Año\>\_\<DESCRIPCION\>.\<EXT\> | /Trabajos/Guias | Trabajos |
-| Guía de trabajos conceptuales | GTC\_\<Año\>\_\<DESCRIPCION\>.\<EXT\> | /Trabajos/Guias | Trabajos |
-| Trabajo práctico | 4K\<N\>\_G\<NumGrupo\>\_TP\<NumTP\>\_\<DESCRIPCION\>.\<EXT\> | /Trabajos/TrabajosPracticos/TP\<NumTP\> | Trabajos |
-| Trabajo conceptual | 4K\<N\>\_G\<NumGrupo\>\_TC\<NumTC\>\_\<DESCRIPCION\>.\<EXT\> | /Trabajos/TrabajosConceptuales/TC\<NumTC\> | Trabajos |
-
-#
+| Modalidad Académica | ISW\_\<YYYY\>\_ModalidadAcademica.pdf | /Catedra | Cátedra |
+| Listado de material bibliográfico | ISW\_\<YYYY\>\_MaterialBibliografico.pdf | /Catedra | Cátedra |
+| Template parcial | TemplateParcial\_\<NN\>\_\<YYYY\>.pdf | /Catedra/TemplatesParciales | Cátedra |
+| Protocolos para rendir exámenes parciales | ProtocoloParciales\_\<YYYY\>.pdf | /Catedra/ProtocolosParaRendirRemoto | Cátedra |
+| Protocolos para rendir exámenes finales | ProtocoloFinales\_\<YYYY\>.pdf | /Catedra/ProtocolosParaRendirRemoto | Cátedra |
+| Clases teóricas grabadas | TeoricasGrabadas\_\<YYYY\>.md | /Clases | Clases |
+| Clases prácticas grabadas | PracticasGrabadas\_\<YYYY\>.md | /Clases | Clases |
+| Material bibliográfico | \<DESCRIPCION\>\_\_\<AUTOR\>.pdf | /Teorico/MaterialBibliografico | Teórico |
+| Filmina | \<NN\>\_\<YYYY\>\_\<DESCRIPCION\>.(pdf | pptx | ppt) | /Teorico/Filminas | Teórico |
+| Guía de trabajos prácticos | GTP\_\<YYYY\>\_\<DESCRIPCION\>.pdf | /Trabajos/Guias | Trabajos |
+| Guía de trabajos conceptuales | GTC\_\<YYYY\>\_\<DESCRIPCION\>.pdf | /Trabajos/Guias | Trabajos |
+| Trabajo práctico | 4K3\_G3\_TP\<NN\>\_\<DESCRIPCION\>.pdf | /Trabajos/TrabajosPracticos/TP\<NN\> | Trabajos |
+| Trabajo conceptual | 4K3\_G3\_TC\<NN\>\_\<DESCRIPCION\>.pdf | /Trabajos/TrabajosConceptuales/TC\<NN\> | Trabajos |
 
 # Glosario
 
 | **Sigla** | **Significado** |
 | --- | --- |
-| \<N\> | Número ordinal de un dígito comenzando en 1 que identifica el curso |
-| \<NumGrupo\> | Número ordinal de un dígito comenzando en 1 que identifica al grupo |
-| \<NumParcial\> | Número ordinal de dos dígitos que identifica el número de parcial. Comienza en 00 |
-| \<NumFilmina\> | Número ordinal de dos dígitos que identifica el número de filmina. Comienza en 00 |
-| \<NumTP\> | Número ordinal de dos dígitos que identifica el número de Trabajo Práctico. Comienza en 00 |
-| \<NumTC\> | Número ordinal de dos dígitos que identifica el número de Trabajo Conceptual. Comienza en 00 |
+| \<N\> | Número ordinal de un dígito comenzando en 1. |
+| \<NN\> | Número ordinal de dos dígitos comenzando en 01. |
 | \<AUTOR\> | Apellido de el/los autor/es del contenido del ítem de configuración. Es opcional |
-| \<Año\> | Número de cuatro dígitos que identifica el año en que se cursó la materia |
+| \<YYYY\> | Número de cuatro dígitos que identifica el año en que se cursó la materia |
 | \<EXT\> | Nombre de la extensión de un archivo identificado como ítem de configuración |
-| \<TIPO\_EXAMEN\> | Nombre del tipo de examen, por ejemplo &quot;Parcial&quot; o &quot;Final&quot; |
 | \<DESCRIPCION\> | Nombre descriptivo del contenido del ítem de configuración, comenzando la primera letra con mayúscula y palabras separadas por guión bajo |
 
 # Línea Base
