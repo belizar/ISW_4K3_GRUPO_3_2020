@@ -12,7 +12,7 @@ Siendo alumnos de la materia de Ingenieria de Software de la carrera de Ingenier
 
 ## Estructura del repositorio
 
-````
+```
 ISW_4K3_GRUPO_3_2020
 ├── Catedra
 │   ├── ISW_MA.pdf
