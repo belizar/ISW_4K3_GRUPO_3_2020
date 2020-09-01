@@ -35,7 +35,7 @@ ISW_4K3_GRUPO_3_2020
 │   │   ├── 03_2020_Intro_agile.pdf
 │   │   ├── 04_2020_Requerimientos_agiles_US.pdf
 │   │   ├── 05_2020_Estimaciones.pdf
-│   │   ├── 06_2020_Gestioon_de_productos_de_software.pdf
+│   │   ├── 06_2020_Gestion_de_productos_de_software.pdf
 │   │   └── 07_2020_SCM.pdf
 │   └── MaterialBibliografico
 │       ├── A_user_story_primer__LeffingwellBehrens.pdf
