@@ -76,7 +76,8 @@ ISW_4K3_GRUPO_3_2020
         │   └── 4K3_G3_TP03_Entregado.pdf
         └── TP04
             ├── 4K3_G3_TP04_Borrador.docx
-            └── 4K3_G3_TP04_Entregado.pdf ```
+            └── 4K3_G3_TP04_Entregado.pdf
+```
 
 
 
