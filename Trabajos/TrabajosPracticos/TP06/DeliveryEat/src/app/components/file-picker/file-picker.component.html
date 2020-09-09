@@ -1,0 +1,15 @@
+<div class="file-picker__wrapper">
+  <div class="file-picker__item">
+    <ion-icon class="mi-pedido__foto" (click)="presentActionSheet()" name="image-outline"></ion-icon>
+    <ion-icon class="mi-pedido__foto-add" name="add-outline"></ion-icon>
+    <div class="flex flex--column">
+    </div>
+  </div>
+</div>
+<input #filePicker style="visibility: hidden;" type="file" accept="image/*"/>
+<div class="img-preview" *ngIf="src">
+  <img [src]="src">
+</div>
+<div *ngIf="error">
+  <ion-label color="danger">{{error}}</ion-label>
+</div>

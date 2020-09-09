@@ -1,0 +1,33 @@
+.metodo-pago {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 10px;
+}
+
+.tarjeta-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+
+  &__item {
+    padding: 5px;
+  }
+}
+
+.cash {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.cash > div.input-addon {
+  width: 70%;
+}
+
+.tarjeta-form {
+  margin-top: 20px;
+  padding: 20px;
+}

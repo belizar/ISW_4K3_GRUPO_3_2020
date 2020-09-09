@@ -1,0 +1,53 @@
+{
+  "_from": "cordova-androidx-build",
+  "_id": "cordova-androidx-build@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-ZC+NHOA4WPI8qV+YyvBba/XokF169tpc9X08fbov6zNXwczeA0w+9lqq+E5Nyp+hX4OX/r8p3q1MSPPYLDa8tA==",
+  "_location": "/cordova-androidx-build",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-androidx-build",
+    "name": "cordova-androidx-build",
+    "escapedName": "cordova-androidx-build",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-androidx-build/-/cordova-androidx-build-1.0.4.tgz",
+  "_shasum": "caaf2bf59dcc82f4d12b4c384e1deafce6ba3ca4",
+  "_spec": "cordova-androidx-build",
+  "_where": "/Volumes/centauri/Home/Development/Personal/utn/DeliveryEatUTN",
+  "author": {
+    "name": "Masashi Katsumata"
+  },
+  "bugs": {
+    "url": "https://github.com/wf9a5m75/cordova-androidx-build/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-androidx-build",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "This plugin helps to build your app with AndroidX library. ",
+  "homepage": "https://github.com/wf9a5m75/cordova-androidx-build",
+  "keywords": [
+    "cordova",
+    "androidx"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-androidx-build",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wf9a5m75/cordova-androidx-build.git"
+  },
+  "version": "1.0.4"
+}

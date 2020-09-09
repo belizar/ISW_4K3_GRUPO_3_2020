@@ -1,0 +1,60 @@
+<div class="metodo-pago">
+
+  <div>
+
+    <ion-list>
+      <ion-radio-group (ionChange)="valueChange($event)" value="cash">
+        <ion-list-header>
+          <ion-label>Método de pago</ion-label>
+        </ion-list-header>
+
+        <ion-item>
+          <ion-label>Efectivo</ion-label>
+          <ion-radio slot="start" value="cash"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Tarjeta VISA</ion-label>
+          <ion-radio slot="start" value="tarjeta"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+
+    <div [formGroup]="metodoForm" *ngIf="!showTarjeta" class="cash">
+      <div class="input-addon">
+        <span>$</span>
+        <input placeholder="$ Monto" type="number" min="0" pattern="\d{1,5}" formControlName="cash" />
+      </div>
+    </div>
+    <div *ngIf="showTarjeta" class="tarjeta-form">
+      <div [formGroup]="metodoForm">
+        <input type="number" appCvcMask="16" placeholder="Card Number" formControlName="cardNumber" />
+        <ion-label color="danger" *ngIf="getCardNumberError() && getCardNumberError().required">Requerido</ion-label>
+        <ion-label color="danger" *ngIf="getCardNumberError() && getCardNumberError().pattern">La tarjeta deber ser VISA
+        </ion-label>
+        <input placeholder="Nombre del titular" formControlName="titular" />
+        <ion-label color="danger"  *ngIf="getTitularError() && getTitularError().required">Requerido</ion-label>
+        <div class="tarjeta-row">
+          <div class="tarjeta-row__item">
+            <input type="number" placeholder="Mes" appCvcMask="2" formControlName="vencimientoMes" />
+            <ion-label color="danger" *ngIf="getVencimientoMesError() && getVencimientoMesError().required">Requerido</ion-label>
+          </div>
+          <div class="tarjeta-row__item">
+            <input type="number" appCvcMask="2" placeholder="Año" formControlName="vencimientoAnio" />
+            <ion-label color="danger" *ngIf="getVencimientoAnioError() && getVencimientoAnioError().required">Requerido</ion-label>
+          </div>
+          <div class="tarjeta-row__item">
+            <input appCvcMask="3" type="number" placeholder="CVC" formControlName="cvc" type="number"/>
+            <ion-label color="danger" *ngIf="getCvcError() && getCvcError().required">Requerido</ion-label>
+            <ion-label color="danger" *ngIf="getCvcError() && getCvcError().pattern">el CVC debe tener 3 digitos</ion-label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ion-label color="danger" *ngIf="!vencValido">El vencimiento debe ser mayor a la fecha actual</ion-label>
+
+  </div>
+  <div>
+    <ion-button expand="full" (click)="listo()">LISTO</ion-button>
+  </div>
+</div>

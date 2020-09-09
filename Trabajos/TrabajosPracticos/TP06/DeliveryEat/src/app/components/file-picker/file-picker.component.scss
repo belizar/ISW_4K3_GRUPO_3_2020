@@ -1,0 +1,28 @@
+.mi-pedido {
+
+  &__foto-container {
+    padding:  10px;
+  }
+
+  &__foto {
+    font-size: 2rem;
+  }
+
+  &__foto-add {
+    position: absolute;
+    margin-left: -5px;
+    margin-top: -3px;
+  }
+  
+}
+
+.img-preview {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img-preview img {
+  width: 50%;
+  height: 60%;
+}

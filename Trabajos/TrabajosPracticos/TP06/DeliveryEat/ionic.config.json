@@ -1,0 +1,7 @@
+{
+  "name": "DeliveryEatUTN",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

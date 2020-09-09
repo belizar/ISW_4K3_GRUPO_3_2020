@@ -1,0 +1,35 @@
+.loquesea {
+  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  height: 94vh;
+  justify-content: space-between;
+
+  &__pedido {
+    width: 100%;
+  }
+
+  &__row {
+    margin:  20px 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+}
+
+.place-order {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  padding: 5px;
+  &__button {
+    padding: 5px;
+    height: 100%;
+  }
+}

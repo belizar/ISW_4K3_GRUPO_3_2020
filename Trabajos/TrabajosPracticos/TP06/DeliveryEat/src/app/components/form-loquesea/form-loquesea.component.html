@@ -1,0 +1,42 @@
+<div class="loquesea">
+  <ion-content>
+    <div class="loquesea__row">
+      <div class="title">Tu pedido</div>
+      <textarea class="loquesea__pedido" rows="1" readonly [ngModel]="pedido" (click)="irAMiPedido()"
+        placeholder="Que te gustaria pedir?"></textarea>
+      <ion-label color="danger" *ngIf="getPedidoErrores() && getPedidoErrores().required">Requerido</ion-label>
+    </div>
+    <div class="loquesea__row">
+      <div class="title"> Dirección de busqueda </div>
+      <input (click)="irALugarDeEntrega()" placeholder="Calle, Nº, Ciudad" [ngModel]="lugarDeEntrega" readonly />
+      <ion-label color="danger" *ngIf="getLugarDeComercioErrores() && getLugarDeComercioErrores().required">Requerido
+      </ion-label>
+      <div class="title">Datos Adicionales</div>
+      <input placeholder="Referencia Opcional" />
+    </div>
+    <div class="loquesea__row">
+      <div class="title"> Dirección de entrega </div>
+      <input (click)="irALugarDeComercio()" placeholder="Calle, Nº, Ciudad" [ngModel]="lugarDeComercio" readonly />
+      <ion-label color="danger" *ngIf="getLugarDeEntregaErrores() && getLugarDeEntregaErrores().required">Requerido
+      </ion-label>
+      <div class="title">Datos Adicionales</div>
+      <input placeholder="Referencia Opcional" />
+    </div>
+    <div class="loquesea__row">
+      <div class="title"> Tiempo de entrega</div>
+      <input (click)="irATiempoDeEntrega()" [ngModel]="tiempoEntrega" readonly
+        placeholder="Cuando tenemos que entregarlo?" />
+      <ion-label color="danger" *ngIf="getTiempoDeEntregaErrores() && getTiempoDeEntregaErrores().required">Requerido
+      </ion-label>
+    </div>
+    <div class="loquesea__row">
+      <div class="title"> Método de Pago</div>
+      <input (click)="irAMetodoDePago()" [ngModel]="metodoDePago" readonly placeholder="Como vas a abonar?" />
+      <ion-label color="danger" *ngIf="getMetodoDePagoErrores() && getMetodoDePagoErrores().required">Requerido
+      </ion-label>
+    </div>
+  </ion-content>
+</div>
+<div class="place-order">
+  <ion-button expand="full" class="place-order__button" (click)="placeOrder()">Place Order</ion-button>
+</div>
