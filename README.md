@@ -54,7 +54,8 @@ Para la ubicación física, se parte del directorio raíz del repositorio (cuyo 
 | Guía de trabajos conceptuales | GTC\_\<YYYY\>\_\<DESCRIPCION\>.pdf | /Trabajos/Guias | Trabajos |
 | Trabajo práctico | 4K3\_G3\_TP\<NN\>\_\<DESCRIPCION\>.pdf | /Trabajos/TrabajosPracticos/TP\<NN\> | Trabajos |
 | Trabajo conceptual | 4K3\_G3\_TC\<NN\>\_\<DESCRIPCION\>.pdf | /Trabajos/TrabajosConceptuales/TC\<NN\> | Trabajos |
-| Documento de estilos de código | 4K3\_G3\_DocumentacionEstilos.<EXT> | /Trabajos/TrabajosPracticos/TP06 | Trabajos |
+| Documento de estilos de código | 4K3\_G3\_DocumentacionEstilos.<EXT\> | /Trabajos/TrabajosPracticos/TP06 | Trabajos |
+| Código fuente | <DESCRIPCION_CODIGO\>.<EXT\> | /Trabajos/TrabajosPracticos/TP06/Implementacion | Trabajos |
 
 # Glosario
 
@@ -66,6 +67,7 @@ Para la ubicación física, se parte del directorio raíz del repositorio (cuyo 
 | \<YYYY\> | Número de cuatro dígitos que identifica el año en que se cursó la materia |
 | \<EXT\> | Nombre de la extensión de un archivo identificado como ítem de configuración |
 | \<DESCRIPCION\> | Nombre descriptivo del contenido del ítem de configuración, comenzando la primera letra con mayúscula y palabras separadas por guión bajo |
+| \<DESCRIPCION_CODIGO\> | Nombre descriptivo del contenido del código fuente, comenzando la primera letra con minúscula y usando notación camel case |
 
 # Línea Base
 
