@@ -49,11 +49,12 @@ Para la ubicación física, se parte del directorio raíz del repositorio (cuyo 
 | Clases teóricas grabadas | TeoricasGrabadas\_\<YYYY\>.md | /Clases | Clases |
 | Clases prácticas grabadas | PracticasGrabadas\_\<YYYY\>.md | /Clases | Clases |
 | Material bibliográfico | \<DESCRIPCION\>\_\_\<AUTOR\>.pdf | /Teorico/MaterialBibliografico | Teórico |
-| Filmina | \<NN\>\_\<YYYY\>\_\<DESCRIPCION\>.(pdf | pptx | ppt) | /Teorico/Filminas | Teórico |
+| Filmina | \<NN\>\_\<YYYY\>\_\<DESCRIPCION\>.pdf | /Teorico/Filminas | Teórico |
 | Guía de trabajos prácticos | GTP\_\<YYYY\>\_\<DESCRIPCION\>.pdf | /Trabajos/Guias | Trabajos |
 | Guía de trabajos conceptuales | GTC\_\<YYYY\>\_\<DESCRIPCION\>.pdf | /Trabajos/Guias | Trabajos |
 | Trabajo práctico | 4K3\_G3\_TP\<NN\>\_\<DESCRIPCION\>.pdf | /Trabajos/TrabajosPracticos/TP\<NN\> | Trabajos |
 | Trabajo conceptual | 4K3\_G3\_TC\<NN\>\_\<DESCRIPCION\>.pdf | /Trabajos/TrabajosConceptuales/TC\<NN\> | Trabajos |
+| Documento de estilos de código | 4K3\_G3\_DocumentacionEstilos.<EXT> | /Trabajos/TrabajosPracticos/TP06 | Trabajos |
 
 # Glosario
 
