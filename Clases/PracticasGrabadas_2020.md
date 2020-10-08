@@ -28,3 +28,18 @@ Links a Videos de la Clase del 02 de Septiembre
 - 4K3_20200902_Scrum_Parte1: https://youtu.be/q0QL9jbSx4c
 - 4K3_20200902_Scrum_Parte2: https://youtu.be/V85VSxP9Hz4
 - 4K3_20200902_Scrum_Parte3: https://youtu.be/KXtjGzz-AwM
+
+## Sprint Planning
+Links a Videos de la Clase del 09 de Septiembre
+- 4K3_20200909_SprintPlanning_Parte1: https://youtu.be/sjpEWQ61R5o
+- 4K3_20200909_SprintPlanning_Parte2: https://youtu.be/C5FVpLiZA24
+
+## Testing de Caja Negra
+Links a Videos de la Clase del 16 de Septiembre
+- 4K3_20200916_TestingCajaNegra_Parte 1: https://youtu.be/OUY0N9cuz18
+- 4K3_20200916_TestingCajaNegra_Parte 2: https://youtu.be/QJkThF0MpDs
+
+## Testing de Caja Blanca
+Links a Videos de la Clase del 23 de Septiembre
+- 4K3_20200923_TestingCajaBlanca_Parte 1: https://youtu.be/5kfUgtONLE0
+- 4K3_20200923_TestingCajaBlanca_Parte 2: https://youtu.be/o0IJSCVb7t8

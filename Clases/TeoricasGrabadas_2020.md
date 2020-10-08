@@ -34,6 +34,15 @@ Clase viernes 28/08/2020 21:30 horas:
 - Parte 3: https://youtu.be/QFeFK47wvOc
 
 ## Framework para escalar Scrum
-Clase viernes 04/09/2020 21:30 horas
+Clase viernes 04/09/2020 21:30 horas:
 - Parte 1: https://youtu.be/tx-tgq30vco
 - Parte 2: https://youtu.be/bqUNI8AFqKA
+
+## Testing
+Clase viernes 18/09/2020 21:30 horas:
+- Parte 1: https://youtu.be/-6vAPyi28OU
+- Parte 2: https://youtu.be/rgRES2s5a_8
+
+## Testing Agile en contexto
+Clase viernes 25/09/2020 21:30 horas:
+- Parte 1: https://youtu.be/hKoJBlhxuN8
