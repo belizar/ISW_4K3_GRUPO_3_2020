@@ -29,8 +29,8 @@ ISW_4K3_GRUPO_3_2020
     │   └── TC03
     └── TrabajosPracticos
         ├── TP01
-        ├── TP03
-        └── TP04
+        ├── ...
+        └── TPNN
 ```
 
 
@@ -52,8 +52,8 @@ Para la ubicación física, se parte del directorio raíz del repositorio (cuyo 
 | Filmina | \<NN\>\_\<YYYY\>\_\<DESCRIPCION\>.pdf | /Teorico/Filminas | Teórico |
 | Guía de trabajos prácticos | GTP\_\<YYYY\>\_\<DESCRIPCION\>.pdf | /Trabajos/Guias | Trabajos |
 | Guía de trabajos conceptuales | GTC\_\<YYYY\>\_\<DESCRIPCION\>.pdf | /Trabajos/Guias | Trabajos |
-| Trabajo práctico | 4K3\_G3\_TP\<NN\>\_\<DESCRIPCION\>.pdf | /Trabajos/TrabajosPracticos/TP\<NN\> | Trabajos |
-| Trabajo conceptual | 4K3\_G3\_TC\<NN\>\_\<DESCRIPCION\>.pdf | /Trabajos/TrabajosConceptuales/TC\<NN\> | Trabajos |
+| Trabajo práctico | 4K3\_G3\_TP\<NN\>\_\<DESCRIPCION\>.<EXT> | /Trabajos/TrabajosPracticos/TP\<NN\> | Trabajos |
+| Trabajo conceptual | 4K3\_G3\_TC\<NN\>\_\<DESCRIPCION\>.<EXT> | /Trabajos/TrabajosConceptuales/TC\<NN\> | Trabajos |
 | Documento de estilos de código | 4K3\_G3\_DocumentacionEstilos.<EXT\> | /Trabajos/TrabajosPracticos/TP06 | Trabajos |
 | Código fuente | <DESCRIPCION_CODIGO\>.<EXT\> | /Trabajos/TrabajosPracticos/TP06/Implementacion | Trabajos |
 
