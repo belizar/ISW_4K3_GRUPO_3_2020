@@ -43,3 +43,19 @@ Links a Videos de la Clase del 16 de Septiembre
 Links a Videos de la Clase del 23 de Septiembre
 - 4K3_20200923_TestingCajaBlanca_Parte 1: https://youtu.be/5kfUgtONLE0
 - 4K3_20200923_TestingCajaBlanca_Parte 2: https://youtu.be/o0IJSCVb7t8
+
+## Ejecución de Casos de Prueba
+Links a Videos de la Clase del 7 de Octubre
+- 4K3_20201007_EjecucionCasosDePrueba_Parte 1: https://youtu.be/4sxrbciyBZY
+
+## Repaso para el parcial
+Links a Videos de la Clase del 15 de Octubre
+- 4K3_20201014_TestingCajaNegraYBlanca: https://youtu.be/jK4MykdHH40
+
+## Practico 13 Design Thinking
+Links a Videos de la Clase del 21 de Octubre
+- 4K3_20201021_DesignThinking: https://youtu.be/ZLYnX0E4Uf4
+
+## Revisiones Tecnicas
+Links a Videos de la Clase del 28 de Octubre
+- 4K3_20201028_RevisionesTecnicas: https://youtu.be/u1bmaI4bEaU
