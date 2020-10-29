@@ -46,3 +46,14 @@ Clase viernes 18/09/2020 21:30 horas:
 ## Testing Agile en contexto
 Clase viernes 25/09/2020 21:30 horas:
 - Parte 1: https://youtu.be/hKoJBlhxuN8
+
+## PPQA:
+Clase viernes 09/10/2020 21:30 horas:
+- Parte 1: https://youtu.be/6GVTACucmRU
+
+## Lean y Kanban:
+Clase viernes 23/10/2020 21:30 horas: 
+- Parte 1: https://youtu.be/opDHtLul3Hk
+
+## Métricas: 
+- Parte 1: https://youtu.be/zoKbW8MlbsQ
